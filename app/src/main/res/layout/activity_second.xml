@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jerome.exercise1.SecondActivity"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="60dp"
+    >
+    <TextView
+        android:id="@+id/RA"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="Your RA is "
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/FG"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="Your Final Grade is "
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/RA"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnBack"
+        android:textColor="@android:color/black"
+        android:onClick="goBackToMain"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/FG"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
